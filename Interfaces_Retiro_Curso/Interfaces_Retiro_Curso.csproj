@@ -69,9 +69,9 @@
   <ItemGroup>
     <Content Include="Pages\CosultarEstado.aspx" />
     <Content Include="Pages\Formulario.aspx" />
-    <Content Include="Pages\FormularioSimple.aspx" />
     <Content Include="Pages\Index.aspx" />
     <Content Include="Pages\Inicio.aspx" />
+    <Content Include="Pages\ListaRequisitos.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,13 +96,6 @@
     <Compile Include="Pages\Formulario.aspx.designer.cs">
       <DependentUpon>Formulario.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\FormularioSimple.aspx.cs">
-      <DependentUpon>FormularioSimple.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\FormularioSimple.aspx.designer.cs">
-      <DependentUpon>FormularioSimple.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +109,13 @@
     </Compile>
     <Compile Include="Pages\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListaRequisitos.aspx.cs">
+      <DependentUpon>ListaRequisitos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ListaRequisitos.aspx.designer.cs">
+      <DependentUpon>ListaRequisitos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
