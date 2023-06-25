@@ -24,13 +24,13 @@ namespace Interfaces_Retiro_Curso.Pages
         protected global::System.Web.UI.WebControls.Label lbltitulo;
 
         /// <summary>
-        /// Control tbNombre.
+        /// Control tbdiegoNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbNombre;
+        protected global::System.Web.UI.WebControls.TextBox tbdiegoNombre;
 
         /// <summary>
         /// Control tbEdad.
