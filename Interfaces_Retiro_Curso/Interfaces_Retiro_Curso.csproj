@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Formulario.aspx" />
     <Content Include="Pages\FormularioSimple.aspx" />
     <Content Include="Pages\Index.aspx" />
     <Content Include="Pages\Inicio.aspx" />
@@ -79,6 +80,13 @@
     </Compile>
     <Compile Include="MP.Master.designer.cs">
       <DependentUpon>MP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Formulario.aspx.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Formulario.aspx.designer.cs">
+      <DependentUpon>Formulario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\FormularioSimple.aspx.cs">
       <DependentUpon>FormularioSimple.aspx</DependentUpon>

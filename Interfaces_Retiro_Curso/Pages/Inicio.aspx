@@ -7,7 +7,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <div class="mx-auto" style="width: 300px">
-        <h5>INICIO</h5>
+        <h1>INICIO</h1>
         <br />
         <h10>UNIVERSIDAD NACIONAL DE PIURA</h10>
     </div>

@@ -36,7 +36,7 @@ namespace Interfaces_Retiro_Curso.Pages
 
         protected void btnPresentar_Click(object sender, EventArgs e)
         {
-            Response.Redirect(url: "Inicio.aspx.cs");
+            Response.Redirect("Inicio.aspx");
         }
     }
 }
