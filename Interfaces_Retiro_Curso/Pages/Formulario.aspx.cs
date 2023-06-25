@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,14 +15,10 @@ namespace Interfaces_Retiro_Curso.Pages
 
         }
 
-        protected void btnSubir_Archivo_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Enviar_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Index.aspx");
         }
+
     }
 }

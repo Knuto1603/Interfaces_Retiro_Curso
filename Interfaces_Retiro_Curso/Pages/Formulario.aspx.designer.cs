@@ -15,13 +15,13 @@ namespace Interfaces_Retiro_Curso.Pages
     {
 
         /// <summary>
-        /// Control btnSubir_Archivo.
+        /// Control fileUpload.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubir_Archivo;
+        protected global::System.Web.UI.WebControls.FileUpload fileUpload;
 
         /// <summary>
         /// Control Enviar.

@@ -33,7 +33,8 @@
 
             <label>ANEXOS:</label>
 
-            <asp:Button runat="server" ID="btnSubir_Archivo" CssClass="btn-small btn-rounded" Text="Subir Archivo" OnClick="btnSubir_Archivo_Click" BackColor="Gray" ForeColor="White" Style="border-radius: 5px;" />
+            <asp:FileUpload ID="fileUpload" runat="server" />
+            <br />
             <asp:Button runat="server" ID="Enviar" CssClass="btn-small btn-rounded" Text="Enviar" OnClick="Enviar_Click" BackColor="Gray" ForeColor="White" Style="border-radius: 5px;" />
         </div>
     </form>
