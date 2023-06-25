@@ -13,7 +13,7 @@
         <div>
             <div class="mb-3">
                 <div class="form-label">Nombre</div>
-                <asp:TextBox runat="server" CssClass="form-control" ID="tbdiegoNombre"></asp:TextBox>
+                <asp:TextBox runat="server" CssClass="form-control" ID="tbNombre"></asp:TextBox>
             </div>
             <div class="mb-3">
                 <div class="form-label">Edad</div>
