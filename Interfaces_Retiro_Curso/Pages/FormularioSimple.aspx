@@ -12,7 +12,7 @@
     <form runat="server" class="h-100 d-flex aling-items-center justify-content-center">
         <div>
             <div class="mb-3">
-                <div class="form-label">Alembert</div>
+                <div class="form-label">Nombre</div>
                 <asp:TextBox runat="server" CssClass="form-control" ID="tbNombre"></asp:TextBox>
             </div>
             <div class="mb-3">
