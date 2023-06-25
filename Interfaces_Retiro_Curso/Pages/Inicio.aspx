@@ -6,9 +6,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-    <div class="mx-auto" style="width: 300px">
+    <div class="mx-auto" style="width: max-content">
         <h1>INICIO</h1>
+    </div>
+
+    <div class="mx-auto" style="width: max-content">
+
         <br />
-        <h10>UNIVERSIDAD NACIONAL DE PIURA</h10>
+        <h1>UNIVERSIDAD NACIONAL DE PIURA</h1>
     </div>
 </asp:Content>

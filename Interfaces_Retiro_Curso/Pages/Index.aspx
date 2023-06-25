@@ -38,7 +38,7 @@
         <div class="container">
             <div class="row">
                 <div class="col align-self-end">
-                    <asp:Button runat="server" ID="btnPresentar" CssClass="btn-small btn-rounded" Text="Presentar Solicitud" OnClick="btnPresentar_Click" BackColor="Gray" ForeColor="White" />
+                    <asp:Button runat="server" ID="btnPresentar" CssClass="btn-small btn-rounded" Text="Presentar Solicitud" OnClick="btnPresentar_Click" BackColor="Gray" ForeColor="White" Style="border-radius: 5px;" />
                 </div>
             </div>
         </div>
