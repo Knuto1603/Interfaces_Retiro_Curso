@@ -6,22 +6,37 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System;
+using System.Data.SqlClient;
+using System.Configuration;
+using System.Data;
 
 namespace Interfaces_Retiro_Curso.Pages
 {
+
     public partial class Index : System.Web.UI.Page
     {
-
+        readonly SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["conexion"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            cargarTabla();
         }
 
-
+        void cargarTabla()
+        {
+            SqlCommand cmd = new SqlCommand("sp_load", connection);
+            cmd.CommandType = CommandType.StoredProcedure;
+            connection.Open();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            gvCurso.DataSource = dt;
+            gvCurso.DataBind();
+            connection.Close(); 
+        }
         protected void btnRead_Click(object sender, EventArgs e)
         {
-
+  
         }
 
         protected void btnUpdate_Click(object sender, EventArgs e)
