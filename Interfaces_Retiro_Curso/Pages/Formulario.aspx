@@ -11,7 +11,7 @@
             DATOS ALUMNO
         <br />
             <br />
-            <label>ALUMNO:</label><br />
+            <label>ALUMNO:&nbsp; </label><br />
             <label>C.U:</label><br />
             <label>FACULTAD:</label><br />
             <label>ESCUELA:</label><br />
@@ -36,7 +36,7 @@
             <asp:FileUpload ID="fileUpload" runat="server" />
             <br />
             <asp:Button runat="server" ID="Enviar" CssClass="btn-small btn-rounded" Text="Enviar" OnClick="Enviar_Click" BackColor="Gray" ForeColor="White" Style="border-radius: 5px;" />
-        </div>
+        </div>  
     </form>
 
 
