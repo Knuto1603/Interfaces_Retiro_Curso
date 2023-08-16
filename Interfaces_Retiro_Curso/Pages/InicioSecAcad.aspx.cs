@@ -13,5 +13,11 @@ namespace Interfaces_Retiro_Curso.Pages
         {
 
         }
+
+        protected void Seleccionar_Click(object sender, EventArgs e)
+        {
+            string rutaInterfaz = "WebForm1.aspx";
+            Response.Redirect(rutaInterfaz);
+        }
     }
 }
