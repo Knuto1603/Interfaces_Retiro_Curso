@@ -5,7 +5,11 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <form id="form1" runat="server">
-        <p>
+
+        <div class="container">
+            <div class="mx-auto" style="width: max-content">
+
+   <p>
             <br />
         </p>
         Asunto: &quot;Cantidad mínima de alumnos Insuficiente&quot;<br />
@@ -27,5 +31,9 @@
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Cancelar" />
         <br />
         <br />
+        </div>
+    </div>
+
+        
     </form>
 </asp:Content>

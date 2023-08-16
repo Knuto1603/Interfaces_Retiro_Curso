@@ -5,6 +5,16 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <form id="form1" runat="server">
+
+        <div class="container">
+            <div class="mx-auto" style="width: max-content">
+<p>
+            &nbsp;<br />
+        </p>
+&nbsp;¡El informe a sido enviado!<br />
+        <br />
+        </div>
+    </div>
         <p>
             &nbsp;<br />
         </p>
