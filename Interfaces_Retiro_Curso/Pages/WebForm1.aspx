@@ -16,7 +16,7 @@
                 <asp:DropDownList ID="ddlInterfaces" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlInterfaces_SelectedIndexChanged">
                     <asp:ListItem Text="Selecciona un actor" Value="" />
                     <asp:ListItem Text="Alumno" Value="Inicio.aspx" />
-                    <asp:ListItem Text="Jefe de Registrod" Value="JefeDeRegistro.aspx" />
+                    <asp:ListItem Text="Jefe de Registrod" Value="InicioJefeR.aspx" />
                     <asp:ListItem Text="Director de Departamento" Value="JefeDepartamento.aspx" />
                     <asp:ListItem Text="Secretario Académico" Value="SecretarioAcademico.aspx" />
                 </asp:DropDownList>

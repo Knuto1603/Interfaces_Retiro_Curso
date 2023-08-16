@@ -22,7 +22,7 @@
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Retiro Curso
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="SecretarioAcademico.aspx">Solicitudes</a></li>
+                            <li><a class="dropdown-item" href="JefeDeRegistro.aspx">Solicitudes</a></li>
                             <li><a class="dropdown-item">Consulta Solicitudes</a></li>
 
                         </ul>

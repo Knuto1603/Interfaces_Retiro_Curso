@@ -75,6 +75,7 @@
     <Content Include="Pages\Informe.aspx" />
     <Content Include="Pages\InformeEnviado.aspx" />
     <Content Include="Pages\Inicio.aspx" />
+    <Content Include="Pages\InicioJefeR.aspx" />
     <Content Include="Pages\JefeDepartamento.aspx" />
     <Content Include="Pages\JefeDeRegistro.aspx" />
     <Content Include="Pages\ListaRequisitos.aspx" />
@@ -179,6 +180,13 @@
     </Compile>
     <Compile Include="Pages\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InicioJefeR.aspx.cs">
+      <DependentUpon>InicioJefeR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InicioJefeR.aspx.designer.cs">
+      <DependentUpon>InicioJefeR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\JefeDepartamento.aspx.cs">
       <DependentUpon>JefeDepartamento.aspx</DependentUpon>
