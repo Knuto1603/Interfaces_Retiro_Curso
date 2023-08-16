@@ -25,7 +25,7 @@
                     <EditRowStyle BorderStyle="Solid" />
                 </asp:GridView>
 
-                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RetiroCursosConnectionString %>" SelectCommand="SELECT [CURSO], [CODIGO], [CREDITOS] FROM [CURSOS]"></asp:SqlDataSource>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RetiroCursos %>" SelectCommand="SELECT [CURSO], [CODIGO], [CREDITOS] FROM [CURSOS]"></asp:SqlDataSource>
                 <br />
 
             </div>

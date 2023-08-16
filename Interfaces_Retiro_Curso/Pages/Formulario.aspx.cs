@@ -51,6 +51,8 @@ namespace Interfaces_Retiro_Curso.Pages
                 lblFacultad.Text = "";
 
             }
+
+
         }
         protected void Page_Unload(object sender, EventArgs e)
         {
