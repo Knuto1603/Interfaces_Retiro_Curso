@@ -21,6 +21,11 @@
                     </Columns>
                 </asp:GridView>
                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:RetiroCursos %>" SelectCommand="SELECT * FROM [DetalleCursos]"></asp:SqlDataSource>
+                <br />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Confirmar" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Rechazar" />
+                <br />
             </div>
         </div>
 

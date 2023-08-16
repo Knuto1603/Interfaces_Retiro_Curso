@@ -13,5 +13,21 @@ namespace Interfaces_Retiro_Curso.Pages
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string script = @"<script type='text/javascript'>
+                        window.open('casoespeacialAPROBADO.aspx', 'PopupWindow', 'width=400,height=300');
+                    </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "OpenPopup", script);
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            string script = @"<script type='text/javascript'>
+                        window.open('RechazarCasoEspecial.aspx', 'PopupWindow', 'width=400,height=300');
+                    </script>";
+            ClientScript.RegisterStartupScript(this.GetType(), "OpenPopup", script);
+        }
     }
 }

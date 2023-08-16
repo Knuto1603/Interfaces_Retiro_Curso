@@ -35,8 +35,21 @@
         <asp:Label ID="Label12" runat="server" Text="-Cruce de Horarios"></asp:Label>
         <br />
         <br />
+        <br />
+        Datos Curso:<br />
+        <br />
+        Código: MA3412<br />
+        Curso: Calculo III<br />
+        Cantidad de alumnos: 12<br />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Informe" />
         <br />
+        <br />
+        <br />
+        Observaciones:<br />
+        <br />
+        <asp:TextBox ID="TextBox1" runat="server" Height="120px" Width="405px"></asp:TextBox>
         <br />
         <br />
         <br />

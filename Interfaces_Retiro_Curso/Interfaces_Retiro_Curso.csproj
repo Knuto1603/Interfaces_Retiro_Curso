@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\AprobarCasoEspecial.aspx" />
+    <Content Include="Pages\casoespeacialAPROBADO.aspx" />
     <Content Include="Pages\CosultarEstado.aspx" />
     <Content Include="Pages\DetalleSolicitud.aspx" />
     <Content Include="Pages\Formulario.aspx" />
@@ -81,6 +82,7 @@
     <Content Include="Pages\JefeDepartamento.aspx" />
     <Content Include="Pages\JefeDeRegistro.aspx" />
     <Content Include="Pages\ListaRequisitos.aspx" />
+    <Content Include="Pages\RechazarCasoEspecial.aspx" />
     <Content Include="Pages\RechazoEnviado.aspx" />
     <Content Include="Pages\Retirados.aspx" />
     <Content Include="Pages\RetiroRechazado.aspx" />
@@ -133,6 +135,13 @@
     </Compile>
     <Compile Include="Pages\AprobarCasoEspecial.aspx.designer.cs">
       <DependentUpon>AprobarCasoEspecial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\casoespeacialAPROBADO.aspx.cs">
+      <DependentUpon>casoespeacialAPROBADO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\casoespeacialAPROBADO.aspx.designer.cs">
+      <DependentUpon>casoespeacialAPROBADO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\CosultarEstado.aspx.cs">
       <DependentUpon>CosultarEstado.aspx</DependentUpon>
@@ -224,6 +233,13 @@
     </Compile>
     <Compile Include="Pages\ListaRequisitos.aspx.designer.cs">
       <DependentUpon>ListaRequisitos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RechazarCasoEspecial.aspx.cs">
+      <DependentUpon>RechazarCasoEspecial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RechazarCasoEspecial.aspx.designer.cs">
+      <DependentUpon>RechazarCasoEspecial.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\RechazoEnviado.aspx.cs">
       <DependentUpon>RechazoEnviado.aspx</DependentUpon>
