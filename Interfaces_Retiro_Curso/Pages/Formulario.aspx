@@ -11,11 +11,17 @@
             DATOS ALUMNO
         <br />
             <br />
-            <label>ALUMNO:&nbsp; </label><br />
-            <label>C.U:</label><br />
-            <label>FACULTAD:</label><br />
-            <label>ESCUELA:</label><br />
-            <label>CURSO:</label><br />
+            
+            <asp:Label ID="lblAlumno" runat="server" Text=""></asp:Label>
+            
+            <br />
+           <asp:Label ID="lblCU" runat="server" Text=""></asp:Label><br /> 
+
+            <asp:Label ID="lblFacultad" runat="server" Text=""></asp:Label><br />
+            <asp:Label ID="lblEscuela" runat="server" Text=""></asp:Label><br />
+            <asp:Label ID="lblCurso" runat="server" Text=""></asp:Label><br />
+            <br />
+            <asp:Button ID="btnMostrarSiguiente" runat="server" Text="Mostrar Siguiente Estudiante" OnClick="btnMostrarSiguiente_Click" />
             <br />
             <label>MOTIVOS:</label><br />
 

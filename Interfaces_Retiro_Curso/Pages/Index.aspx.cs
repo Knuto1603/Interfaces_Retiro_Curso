@@ -58,7 +58,24 @@ namespace Interfaces_Retiro_Curso.Pages
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Response.Redirect("Formulario.aspx");
+           
+            Random ran = new Random();
+            int a;
+
+            a = ran.Next(2);
+
+
+            if (a == 1)
+            {
+                Response.Redirect("Formulario.aspx");
+            }
+            else
+            {
+                string script = @"<script type='text/javascript'>
+                        window.open('ListaRequisitos.aspx', 'PopupWindow', 'width=400,height=300');
+                    </script>";
+                ClientScript.RegisterStartupScript(this.GetType(), "OpenPopup", script);
+            }
         }
     }
 }
