@@ -76,6 +76,8 @@ namespace Interfaces_Retiro_Curso.Pages
                     </script>";
                 ClientScript.RegisterStartupScript(this.GetType(), "OpenPopup", script);
             }
+
+
         }
     }
 }

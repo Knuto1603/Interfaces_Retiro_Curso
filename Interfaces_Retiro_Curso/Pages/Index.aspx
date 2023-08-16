@@ -15,7 +15,7 @@
             <div class="mx-auto" style="width: max-content">
 
                 <br>
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CODIGO" DataSourceID="SqlDataSource1" Width="459px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CODIGO" DataSourceID="SqlDataSource1" Width="459px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" >
                     <Columns>
                         <asp:BoundField DataField="CODIGO" HeaderText="CODIGO" ReadOnly="True" SortExpression="CODIGO" />
                         <asp:BoundField DataField="CURSO" HeaderText="CURSO" SortExpression="CURSO" />

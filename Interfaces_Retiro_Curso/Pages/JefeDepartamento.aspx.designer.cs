@@ -11,7 +11,7 @@ namespace Interfaces_Retiro_Curso.Pages
 {
 
 
-    public partial class CosultarEstado
+    public partial class JefeDepartamento
     {
 
         /// <summary>

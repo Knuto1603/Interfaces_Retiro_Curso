@@ -11,7 +11,7 @@ namespace Interfaces_Retiro_Curso.Pages
 {
 
 
-    public partial class CosultarEstado
+    public partial class JefeDeRegistro
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace Interfaces_Retiro_Curso.Pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control GridView1.
+        /// Control GridView2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.GridView GridView2;
 
         /// <summary>
         /// Control SqlDataSource1.

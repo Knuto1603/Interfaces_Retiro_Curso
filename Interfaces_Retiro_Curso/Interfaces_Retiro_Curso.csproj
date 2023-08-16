@@ -67,11 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\AprobarCasoEspecial.aspx" />
     <Content Include="Pages\CosultarEstado.aspx" />
+    <Content Include="Pages\DetalleSolicitud.aspx" />
     <Content Include="Pages\Formulario.aspx" />
     <Content Include="Pages\Index.aspx" />
+    <Content Include="Pages\Informe.aspx" />
+    <Content Include="Pages\InformeEnviado.aspx" />
     <Content Include="Pages\Inicio.aspx" />
+    <Content Include="Pages\JefeDepartamento.aspx" />
+    <Content Include="Pages\JefeDeRegistro.aspx" />
     <Content Include="Pages\ListaRequisitos.aspx" />
+    <Content Include="Pages\RechazoEnviado.aspx" />
+    <Content Include="Pages\Retirados.aspx" />
+    <Content Include="Pages\RetiroRechazado.aspx" />
+    <Content Include="Pages\RetiroSolicitado.aspx" />
+    <Content Include="Pages\SecretarioAcademico.aspx" />
+    <Content Include="Pages\tablaJefe.aspx" />
+    <Content Include="Pages\tablaSecretario.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,12 +95,26 @@
     <Compile Include="MP.Master.designer.cs">
       <DependentUpon>MP.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AprobarCasoEspecial.aspx.cs">
+      <DependentUpon>AprobarCasoEspecial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AprobarCasoEspecial.aspx.designer.cs">
+      <DependentUpon>AprobarCasoEspecial.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CosultarEstado.aspx.cs">
       <DependentUpon>CosultarEstado.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\CosultarEstado.aspx.designer.cs">
       <DependentUpon>CosultarEstado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DetalleSolicitud.aspx.cs">
+      <DependentUpon>DetalleSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DetalleSolicitud.aspx.designer.cs">
+      <DependentUpon>DetalleSolicitud.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Formulario.aspx.cs">
       <DependentUpon>Formulario.aspx</DependentUpon>
@@ -103,6 +130,20 @@
     <Compile Include="Pages\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Informe.aspx.cs">
+      <DependentUpon>Informe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Informe.aspx.designer.cs">
+      <DependentUpon>Informe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\InformeEnviado.aspx.cs">
+      <DependentUpon>InformeEnviado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\InformeEnviado.aspx.designer.cs">
+      <DependentUpon>InformeEnviado.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,12 +151,75 @@
     <Compile Include="Pages\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\JefeDepartamento.aspx.cs">
+      <DependentUpon>JefeDepartamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\JefeDepartamento.aspx.designer.cs">
+      <DependentUpon>JefeDepartamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\JefeDeRegistro.aspx.cs">
+      <DependentUpon>JefeDeRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\JefeDeRegistro.aspx.designer.cs">
+      <DependentUpon>JefeDeRegistro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\ListaRequisitos.aspx.cs">
       <DependentUpon>ListaRequisitos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\ListaRequisitos.aspx.designer.cs">
       <DependentUpon>ListaRequisitos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RechazoEnviado.aspx.cs">
+      <DependentUpon>RechazoEnviado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RechazoEnviado.aspx.designer.cs">
+      <DependentUpon>RechazoEnviado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Retirados.aspx.cs">
+      <DependentUpon>Retirados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Retirados.aspx.designer.cs">
+      <DependentUpon>Retirados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RetiroRechazado.aspx.cs">
+      <DependentUpon>RetiroRechazado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RetiroRechazado.aspx.designer.cs">
+      <DependentUpon>RetiroRechazado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RetiroSolicitado.aspx.cs">
+      <DependentUpon>RetiroSolicitado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RetiroSolicitado.aspx.designer.cs">
+      <DependentUpon>RetiroSolicitado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SecretarioAcademico.aspx.cs">
+      <DependentUpon>SecretarioAcademico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SecretarioAcademico.aspx.designer.cs">
+      <DependentUpon>SecretarioAcademico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\tablaJefe.aspx.cs">
+      <DependentUpon>tablaJefe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\tablaJefe.aspx.designer.cs">
+      <DependentUpon>tablaJefe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\tablaSecretario.aspx.cs">
+      <DependentUpon>tablaSecretario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\tablaSecretario.aspx.designer.cs">
+      <DependentUpon>tablaSecretario.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
