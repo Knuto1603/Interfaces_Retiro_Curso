@@ -12,7 +12,7 @@
             <h2>Lista de Cursos</h2>
         </div>
         <div class="container">
-            <div class="center-div">
+            <div class="mx-auto" style="width: max-content">
 
                 <br>
                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="CODIGO" DataSourceID="SqlDataSource1" Width="459px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
@@ -20,7 +20,7 @@
                         <asp:BoundField DataField="CODIGO" HeaderText="CODIGO" ReadOnly="True" SortExpression="CODIGO" />
                         <asp:BoundField DataField="CURSO" HeaderText="CURSO" SortExpression="CURSO" />
                         <asp:BoundField DataField="CREDITOS" HeaderText="CREDITOS" SortExpression="CREDITOS" />
-                        <asp:ButtonField ButtonType="Button"  CommandName="Select"  Text="Seleccionar"  />
+                        <asp:ButtonField ButtonType="Button" CommandName="Select" Text="Seleccionar" />
                     </Columns>
                     <EditRowStyle BorderStyle="Solid" />
                 </asp:GridView>
