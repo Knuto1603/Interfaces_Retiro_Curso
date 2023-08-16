@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP.Master" AutoEventWireup="true" CodeBehind="RetiroSolicitado.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.RetiroSolicitado" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP_JefeRegistro.Master" AutoEventWireup="true" CodeBehind="RetiroSolicitado.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.RetiroSolicitado" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>

@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP.Master" AutoEventWireup="true" CodeBehind="DetalleSolicitud.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.DetalleSolicitud" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP_JefeRegistro.Master" AutoEventWireup="true" CodeBehind="DetalleSolicitud.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.DetalleSolicitud" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <form id="form1" runat="server">
-        <h1>
-        DETALLES
-    </h1>
+        <h1>DETALLES
+        </h1>
         <br />
         <asp:Label ID="Label1" runat="server" Text="Datos Alumnos"></asp:Label>
         <br />

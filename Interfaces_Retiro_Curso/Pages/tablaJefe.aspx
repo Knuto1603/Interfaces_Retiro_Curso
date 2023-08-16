@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP.Master" AutoEventWireup="true" CodeBehind="tablaJefe.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.tablaJefe" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MP_DirDepar.master" AutoEventWireup="true" CodeBehind="tablaJefe.aspx.cs" Inherits="Interfaces_Retiro_Curso.Pages.tablaJefe" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>

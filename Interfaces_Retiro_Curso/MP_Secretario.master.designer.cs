@@ -11,7 +11,7 @@ namespace Interfaces_Retiro_Curso
 {
 
 
-    public partial class MP_JefeRegistro
+    public partial class MP_Secretario
     {
 
         /// <summary>

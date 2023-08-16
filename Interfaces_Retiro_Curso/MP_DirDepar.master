@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" MasterPageFile="~/MP.Master" AutoEventWireup="true" CodeBehind="MP_JefeRegistro.master.cs" Inherits="Interfaces_Retiro_Curso.MP_JefeRegistro" %>
+﻿<%@ Master Language="C#" MasterPageFile="~/MP.Master" AutoEventWireup="true" CodeBehind="MP_DirDepar.master.cs" Inherits="Interfaces_Retiro_Curso.MP_DirDepar" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
     <asp:ContentPlaceHolder ID="title" runat="server">
@@ -9,10 +9,9 @@
     </asp:ContentPlaceHolder>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">JEFE REGISTRO</a>
+            <a class="navbar-brand" href="#">DIRECTOR</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

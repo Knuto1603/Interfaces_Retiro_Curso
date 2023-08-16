@@ -85,6 +85,7 @@
     <Content Include="Pages\SecretarioAcademico.aspx" />
     <Content Include="Pages\tablaJefe.aspx" />
     <Content Include="Pages\tablaSecretario.aspx" />
+    <Content Include="Pages\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +95,34 @@
     </Compile>
     <Compile Include="MP.Master.designer.cs">
       <DependentUpon>MP.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MP_Alumno.master.cs">
+      <DependentUpon>MP_Alumno.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP_Alumno.master.designer.cs">
+      <DependentUpon>MP_Alumno.master</DependentUpon>
+    </Compile>
+    <Compile Include="MP_DirDepar.master.cs">
+      <DependentUpon>MP_DirDepar.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP_DirDepar.master.designer.cs">
+      <DependentUpon>MP_DirDepar.master</DependentUpon>
+    </Compile>
+    <Compile Include="MP_JefeRegistro.Master.cs">
+      <DependentUpon>MP_JefeRegistro.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP_JefeRegistro.Master.designer.cs">
+      <DependentUpon>MP_JefeRegistro.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MP_Secretario.master.cs">
+      <DependentUpon>MP_Secretario.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP_Secretario.master.designer.cs">
+      <DependentUpon>MP_Secretario.master</DependentUpon>
     </Compile>
     <Compile Include="Pages\AprobarCasoEspecial.aspx.cs">
       <DependentUpon>AprobarCasoEspecial.aspx</DependentUpon>
@@ -221,10 +250,21 @@
     <Compile Include="Pages\tablaSecretario.aspx.designer.cs">
       <DependentUpon>tablaSecretario.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MP.Master" />
+    <Content Include="MP_JefeRegistro.Master" />
+    <Content Include="MP_Alumno.master" />
+    <Content Include="MP_Secretario.master" />
+    <Content Include="MP_DirDepar.master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

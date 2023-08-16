@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Interfaces_Retiro_Curso
 {
-	public partial class MP_JefeRegistro : System.Web.UI.MasterPage
-	{
-		protected void Page_Load(object sender, EventArgs e)
-		{
+    public partial class MP_DirDepar : System.Web.UI.MasterPage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
-		}
-	}
+        }
+    }
 }
